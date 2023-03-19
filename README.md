@@ -7,6 +7,7 @@ How To Test the Model:
 #Create a new conda environment using the GUI or the following command in conda cmd(use python version >3.6 & <3.7, i.e python 3.6.13):
 
 conda create -n new_testing_environment python=3.6.13
+
 conda activate new_testing_environment
 
 #Clone the Git repository using:
@@ -22,6 +23,7 @@ cd DL_SANet
 #install the requirements using the following 2 commands:
 
 conda install cudatoolkit=10.0 cudnn=7.6.5
+
 pip install -r requirements.txt
 
 
